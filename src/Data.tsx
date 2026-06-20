@@ -16,11 +16,12 @@ export const NAV: NavItem[] = [
 ];
 
 export const STACK: StackMap = {
-  Langages: ["Java", "C", "JavaScript", "TypeScript", "HTML", "CSS", "Lua"],
+  Langages: ["Java", "C", "JavaScript", "TypeScript", "HTML", "CSS", "Lua", "Rust"],
   Frontend: ["React", "React Router", "Next.js", "Tailwind CSS", "Bootstrap"],
   Backend: ["Spring Boot", "Node.js", "Express", "NestJS", "REST APIs"],
   "Bases de données": ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-  "DevOps & Outils": ["Docker", "GitHub Actions", "Git", "Linux", "Windows"],
+  "DevOps & Outils": ["Docker", "GitHub Actions", "Git", "Linux", "Windows", "Vite"],
+  Desktop: ["Tauri"],
 };
 
 export const EDUCATION: Education[] = [
@@ -109,6 +110,14 @@ export const EXPERIENCE: Experience[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+    emoji: "🐳",
+    color: "green",
+    title: "Wraith",
+    desc: "Projet personnel : application desktop pour gérer totalement Docker (conteneurs, démarrage/arrêt/suppression) avec une interface native. Inclut un accès web sécurisé pour piloter Docker à distance, une mise à jour automatique intégrée et un support multilingue.",
+    tags: ["Tauri", "React", "TypeScript", "Rust", "Tailwind CSS", "Docker"],
+    live: "https://github.com/LouisBEDU/Wraith",
+  },
   {
     emoji: "🧘",
     color: "blue",

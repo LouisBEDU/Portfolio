@@ -24,7 +24,7 @@ export type Education = {
   tags: string[];
 };
 
-export type ProjectColor = "accent" | "blue" | "purple" | "orange" | "red";
+export type ProjectColor = "accent" | "blue" | "purple" | "orange" | "red" | "green";
 
 export type Project = {
   emoji: string;
